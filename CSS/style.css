@@ -34,6 +34,9 @@ body{
  font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
+body,html{
+  overflow-x: hidden;
+}
 .grid{
   display: grid;
 }
@@ -61,7 +64,7 @@ header{
 .inner-navbar{
   display: flex;
   align-items: center;
-  gap: 15rem;
+  gap: 10rem;
 }
 .nav-branding {
   font-size: 36px;
@@ -73,7 +76,7 @@ span.change-color{
 }
 .nav-menu {
   display: flex;
-  gap: 60px;
+  gap: 35px;
   align-items: center;
 }
 
@@ -91,11 +94,11 @@ span.change-color{
   margin-right: 3rem;
 }
 .bar {
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
+  width: 35px;
+  height: 4px;
+  margin: 7px auto;
   display: block;
-  background-color: #fff;
+  background-color: #000000;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -136,13 +139,12 @@ display: flex;
 align-items: center;
 gap: 2rem;
 }
-
 /* ==================HOME SECTION */
 .home-section{
   padding: 4rem 100px;
   margin-bottom: 4rem;
+  position: relative;
 }
-
 .home-img{
   width: 704px;
   height: 762px;
@@ -173,8 +175,65 @@ gap: 2rem;
   color: #fff;
 }
 .cta-shopNow:hover{
-  background-color: #103889;
+  background-color: #1b50bb;
 }
+
+/* absolute-box */
+/* .absolute-box{
+  position:absolute;
+  top: 591px;
+  left: 601px;
+  width: 30%;
+  background: rgba(137, 140, 140, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.absolute-box-2{
+  position:absolute;
+  top: 191px;
+  left: 1156px;
+    width: 26%;
+  background: rgba(137, 140, 140, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.absolute-content{
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.absolute-content h5{
+  font-size: 23px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.absolute-content p{
+  font-size: 17px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 13px;
+}
+.dot-btn{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.abso-cta{
+  background-color: #7A9BDC;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease 0.4s
+}
+.abso-cta:hover{
+  background-color: #3767c7;
+}
+.abso-img{
+  width: 111px;
+  height: 98px;
+} */
 /* ==================BEST SERVICE */
 .best-service{
   padding: 4rem 100px;
@@ -506,6 +565,19 @@ footer{
   font-size: 25px;
   line-height: 2.2;
   color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  
+}
+.footer-items ul li::after{
+  content: "";
+  width: 0%;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 2px solid #B5B5B5;
+  transition: ease 0.5s;
+}
+.footer-items ul li:hover::after{
+  width: 98%;
 }
 .footer-info{
   display: flex;
