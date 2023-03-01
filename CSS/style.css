@@ -115,6 +115,28 @@ span.change-color{
  background-color: #4171D0;
  color: #fff;
 }
+.header-icon{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.header-icon p{
+  font-size: 22px;
+  font-family: 'poppins';
+}
+.login-icon-1{
+  font-size: 32px;
+  color: #000000;
+}
+.login-icon-2{
+  font-size: 20px;
+}
+.login{
+display: flex;
+align-items: center;
+gap: 2rem;
+}
+
 /* ==================HOME SECTION */
 .home-section{
   padding: 4rem 100px;
@@ -493,4 +515,14 @@ footer{
 .footer-info p{
   font-size: 25px;
   color: rgba(0, 0, 0, 0.4);
+}
+.footer-socialMedia{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3.5rem;
+}
+.footer-socialIcon{
+  font-size: 42px;
+  color: #B5B5B5;
 }
