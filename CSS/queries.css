@@ -267,8 +267,8 @@
     font-size: 13px;
   }
   .home-img {
-    width: 343px;
-    height: 267px;
+    width: 360px;
+    height: 440px;
   }
   .best-heading h2 {
     font-size: 30px;
@@ -294,7 +294,7 @@
     font-size: 14px;
   }
   .item-icon {
-    gap: 18px;
+    gap: 13px;
   }
   .product-title h4 {
     font-size: 27px;
@@ -382,6 +382,14 @@
   .login-icon-2 {
     font-size: 14px;
   }
+  .text-box h5 {
+    font-size: 21px;
+    margin-bottom: 2px;
+  }
+  .text-box p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
   .grid-2cols {
     grid-template-columns: 1fr 1fr;
     gap: 27px;
@@ -392,7 +400,7 @@
   }
   .home-img {
     width: 318px;
-    height: 311px;
+    height: 383px;
   }
   .cta-shopNow {
     font-size: 16px;
@@ -423,6 +431,7 @@
   }
   .product-title {
     flex-direction: row;
+    margin-bottom: 2rem;
   }
   .product-title p {
     font-size: 13px;
