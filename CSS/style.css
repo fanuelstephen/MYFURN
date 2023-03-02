@@ -33,6 +33,7 @@
 body{
  font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
+  font-size: 70%;
 }
 body,html{
   overflow-x: hidden;
@@ -51,7 +52,7 @@ body,html{
 }
 /* =========================header */
 header{
-  padding: 4rem 70px;
+  padding: 1rem 70px;
   margin-bottom: 4rem;
 }
 .navbar {
@@ -94,9 +95,9 @@ span.change-color{
   margin-right: 3rem;
 }
 .bar {
-  width: 35px;
-  height: 4px;
-  margin: 7px auto;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
   display: block;
   background-color: #000000;
   -webkit-transition: all 0.3s ease-in-out;
